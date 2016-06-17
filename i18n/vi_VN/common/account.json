@@ -1,0 +1,28 @@
+{
+  "common": {
+      "account": {
+          "change-password": "Đổi Mật khẩu",
+          "logout": "Đăng xuất",
+          "management": "Trang quản trị"
+      },
+      "group": {
+      	"title": "Tạo nhóm mới",
+      	"mark": "Những trường được đánh dấu <span class='text-danger'>(*)</span> yêu cầu phải nhập đầy đủ thông tin.",
+      	"name": "Nhập tên nhóm <span class='text-danger'>*</span>",
+      	"tournament": "Nhập tên giải đấu <span class='text-danger'>*</span>",
+      	"moderator": "Chọn user làm chủ <span class='text-danger'>*</span>",
+      	"marktournament": "Vui lòng chọn giải đấu",
+        "create-success": "Tạo nhóm thành công!"
+      },
+      "reset-password": {
+        "title": "Quên mật khẩu",
+        "mark": "Vui lòng nhập email để khôi phục mật khẩu"
+      },
+      "reset-passwordSuccess": {
+        "title": "Đổi mật khẩu",
+        "mark": "Mật khẩu của bạn đã được thay đổi thành công, vui lòng đăng nhập lại!"
+      },
+      "unauthorized": "Session đã hết hạn. Vui lòng đăng nhập để tiếp tục!",
+      "redirect": "Tự động chuyển hướng về trang chủ hoặc click <a href='/home'>vào đây</a>"
+  }
+}

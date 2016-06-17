@@ -1,0 +1,122 @@
+{
+  "global": {
+    "name": "Ngaythobet",
+    "copyright": "&copy;2015 KMS Technology, Inc."
+  },
+  "components": {
+    "home": {
+      "welcome-message": "Welcome to ngaythobet!!!"
+    },
+    "resetpassword": {
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "saveButton": "Save"
+    },
+    "tournament": {
+      "createTournament-success": "Creat tournament successfully!!!",
+      "title": "Create Tournament",
+      "competitors": "Competitors",
+      "name": "Tournament name",
+      "active": "Active",
+      "activeSuccess": "Active tournament successfully!!!",
+      "edit-tournament": {
+        "btnActiveTour": "Active tournament",
+        "btnNewGroup": "<i class='fa fa-plus'></i> New group",
+        "btnNewMatch": "<i class='fa fa-plus'></i> New match",
+        "btnNewRound": "<i class='fa fa-plus'></i> New round"
+      },
+      "tab": {
+        "matches": "Matches",
+        "statistics": "Statistics",
+        "information": "Information"
+      },
+      "history": {
+        "matchStatistic": "Match statistic",
+        "groupStatistic": "Group statistic",
+        "playerStatistic": "Player statistic",
+        "player": {
+          "table": {
+            "no": "No",
+            "match": "Match",
+            "competitor": "You choose competitor",
+            "score": "Score (Balance)",
+            "expired": "Expired bet time",
+            "loss": "Loss amount"
+          },
+          "total": "Total loss amount",
+          "unit": "USD"
+        },
+        "group": {
+          "title": "Group statistic",
+          "table": {
+            "no": "No",
+            "player": "Player",
+            "notloss": "Not loss count",
+            "losscount": "Loss count",
+            "lossamount": "Loss amount",
+            "notbetcount": "Not bet count",
+            "notbetamount": "Not bet amount",
+            "totalloss": "Total loss amount"
+          },
+          "total": "Total loss amount",
+          "unit": "USD"
+        }
+      }
+    }
+  },
+  "common": {
+    "account": {
+      "change-password": "Change Password",
+      "logout": "Logout",
+      "management": "Management"
+    },
+    "group": {
+      "title": "Create Betting Group",
+      "mark": "The fields mark <span class='text-danger'>(*)</span> is required. Please enter all required fields to create group",
+      "name": "Please enter name of new group <span class='text-danger'>*</span>",
+      "tournament": "Select one tournament <span class='text-danger'>*</span>",
+      "moderator": "Set moderator <span class='text-danger'>*</span>",
+      "marktournament": "-- Select tournaments --",
+      "create-success": "Create group success!",
+      "information": {
+        "name": "Group Name",
+        "information": "Information",
+        "moderator": "Moderator",
+        "editGroup": " Edit Group",
+        "groupPlayers": "Group Players",
+        "update-success": "Update group successfully!!!"
+      }
+    },
+    "reset-password": {
+      "title": "Forgot Password",
+      "mark": "Please enter your email to reset password"
+    },
+    "reset-passwordSuccess": {
+      "title": "Reset password success",
+      "mark": "Your password has been changed successfully, Please login again!"
+    },
+    "unauthorized": "Your session is about expired. Please login to continue!",
+    "redirect": "Automatically redirect to Homepage in 3s or click <a href='#'>here</a>",
+    "login": {
+      "title": "Log In",
+      "username": "Username",
+      "password": "Password",
+      "forgotpassword": "Forgot password?",
+      "btnlogin": "Login"
+    },
+    "navbar": {},
+    "register": {
+      "success": "Register Successfully!!! Please check email.",
+      "activate": "Activate Successfully!!!",
+      "username": "Username",
+      "displayname": "Display name",
+      "password": "Password",
+      "confirmPassword": "Confirm password",
+      "signup": "Sign up"
+    },
+    "sidebar": {
+      "title": "<i class='fa fa-bars' data-toggle='tooltip' title='Colapse Tournament!'></i> Tournament",
+      "create": "<i class='fa fa-plus-circle'></i> Create"
+    }
+  }
+}

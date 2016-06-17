@@ -1,0 +1,30 @@
+<div ng-controller="CreateTournamentController as creator">
+	<div class="panel panel-info">
+		<div class="panel-heading panel-title">
+			<h4 translate="components.tournament.title"></h4>
+		</div>
+		<div class="panel-body">
+			<form novalidate>
+				<div ng-class="(creator.errorMessage.name) ? 'form-group has-error' : 'form-group'">
+					<label class="control-label" translate="components.tournament.name"></label><span class="text-danger"> (*)</span>
+					<input type="text" class="form-control" ng-model="creator.name" ng-trim="false"/>
+					<span class="text-danger" ng-show="creator.errorMessage" ng-bind="creator.errorMessage.name"></span>
+				</div>
+				<div ng-class="(creator.errorMessage.competitors) ? 'form-group has-error' : 'form-group'">
+					<label class="control-label" translate="components.tournament.competitors"></label><span class="text-danger">(>1)</span><span class="badge">{{creator.getNumOfCompetitors()}}</span>
+					<tags-input min-length="0" replace-spaces-with-dashes="false" placeholder="Add a competitor" ng-model="creator.competitors"></tags-input>
+					<span class="text-danger" ng-show="creator.errorMessage" ng-bind="creator.errorMessage.competitors"></span>
+				</div>
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" ng-model="creator.active" />
+						<span translate="components.tournament.active"></span>
+					</label>
+				</div>
+				<div class="form-group clearfix ">
+					<button class="btn btn-primary pull-right" ng-click="creator.createTournament()" translate="components.tournament.title"></button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>

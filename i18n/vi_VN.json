@@ -1,0 +1,131 @@
+{
+  "global": {
+    "name": "Ngaythobet",
+    "copyright": "&copy;2015 Công ty TNHH KMS Technology Việt Nam"
+  },
+  "common": {
+    "account": {
+      "change-password": "Đổi Mật khẩu",
+      "logout": "Đăng xuất",
+      "management": "Trang quản trị"
+    },
+    "group": {
+      "title": "Tạo nhóm mới",
+      "mark": "Những trường được đánh dấu <span class='text-danger'>(*)</span> yêu cầu phải nhập đầy đủ thông tin.",
+      "name": "Nhập tên nhóm <span class='text-danger'>*</span>",
+      "tournament": "Nhập tên giải đấu <span class='text-danger'>*</span>",
+      "moderator": "Chọn user làm chủ <span class='text-danger'>*</span>",
+      "marktournament": "Vui lòng chọn giải đấu",
+      "create-success": "Tạo nhóm thành công!",
+      "information": {
+        "name": "Tên nhóm",
+        "information": "Thông tin nhóm",
+        "moderator": "Người điều hành",
+        "editGroup": " Cập nhật",
+        "groupPlayers": "Người chơi",
+        "update-success": "Cập nhật thành công!!!"
+      }
+    },
+    "reset-password": {
+      "title": "Quên mật khẩu",
+      "mark": "Vui lòng nhập email để khôi phục mật khẩu"
+    },
+    "reset-passwordSuccess": {
+      "title": "Đổi mật khẩu",
+      "mark": "Mật khẩu của bạn đã được thay đổi thành công, vui lòng đăng nhập lại!"
+    },
+    "unauthorized": "Session đã hết hạn. Vui lòng đăng nhập để tiếp tục!",
+    "redirect": "Tự động chuyển hướng về trang chủ hoặc click <a href='/home'>vào đây</a>",
+    "login": {
+      "title": "Đăng nhập",
+      "username": "Tên đăng nhập",
+      "password": "Mật khẩu",
+      "forgotpassword": "Quên mật khẩu?",
+      "btnlogin": "Đăng nhập"
+    },
+    "navbar": {},
+    "register": {
+      "success": "Đăng ký thành công!!! Vui lòng kiểm tra email.",
+      "activate": "Kích hoạt tài khoản thành công!!!",
+      "username": "Tên đăng nhập",
+      "displayname": "Tên hiển thị",
+      "password": "Mật khẩu",
+      "confirmPassword": "Nhập lại mật khẩu",
+      "signup": "Đăng ký"
+    },
+    "sidebar": {
+      "title": "<i class='fa fa-bars'></i> Giải đấu",
+      "create": "<i class='fa fa-plus-circle'></i> Tạo mới"
+    }
+  },
+  "components": {
+    "home": {
+      "welcome-message": "Chào mừng bạn đến với ngaythobet!!!",
+      "rules": "Luật cá độ:",
+      "rule1": "Bạn có thể thay đổi bên thoải mái trước giờ hết hạn cá của mỗi trận đấu.",
+      "rule2": "Bạn chỉ có thể không thua, thua ít hay thua nhiều, chứ không thắng tiền. Tiền thua của tất cả các thành viên sẽ được gom lại cho 1 hoặc nhiều cuộc ăn chơi.",
+      "rule3": "Tỉ lệ chấp được dùng để cân bằng cá cược. Tỉ số của mỗi bên sẽ được cộng với tỉ lệ chấp của bên đó.",
+      "rule4": "Nếu bạn không cá trong một trận nào đó, bạn sẽ thua số tiền của trận đó.",
+      "loss-amount-rules": "Cách tính tiền thua:",
+      "loss-amount-rule1": "Kết quả hòa, cá bên nào cũng thua 1/2 số tiền.",
+      "loss-amount-rule2": "Chấp 0.25 trái, kết quả hòa, bắt bên được chấp (0.25) thì không mất tiền, bắt bên chấp (0) thì mất 1/2 số tiền.",
+      "loss-amount-rule3": "Chấp 0.5 trái, kết quả hòa, bắt bên được chấp (0.5) thì không mất tiền, bắt bên chấp (0) thì mất trọn số tiền."
+    },
+    "resetpassword": {
+      "password": "Mật khẩu",
+      "confirmPassword": "Xác nhận mật khẩu",
+      "saveButton": "Lưu"
+    },
+    "tournament": {
+      "createTournament-success": "Thêm giải đấu thành công!!!",
+      "title": "Tạo giải đấu",
+      "competitors": "Các đội thi đấu",
+      "name": "Tên giải đấu",
+      "active": "Kích hoạt",
+      "activeSuccess": "Kích hoạt giải đấu thành công!!!",
+      "edit-tournament": {
+        "btnActiveTour": "Kích hoạt",
+        "btnNewGroup": "<i class='fa fa-plus'></i> Tạo nhóm",
+        "btnNewMatch": "<i class='fa fa-plus'></i> Tạo trận đấu",
+        "btnNewRound": "<i class='fa fa-plus'></i> Tạo vòng đấu"
+      },
+      "tab": {
+        "matches": "Trận đấu",
+        "statistics": "Thống kê",
+        "information": "Thông tin"
+      },
+      "history": {
+        "matchStatistic": "Thống kê trận đấu",
+        "groupStatistic": "Thống kê nhóm",
+        "playerStatistic": "Thống kê người chơi",
+        "player": {
+          "table": {
+            "no": "STT",
+            "match": "Trận đấu",
+            "competitor": "Đối thủ",
+            "score": "Tỷ số",
+            "expired": "Thời gian hết hạn",
+            "loss": "Số trận thua"
+          },
+          "total": "Tổng số thua",
+          "unit": "VNĐ"
+        },
+        "group": {
+          "title": "Thống kê theo nhóm",
+          "table": {
+            "no": "STT",
+            "player": "Người chơi",
+            "notloss": "Số trận thắng",
+            "losscount": "Số trận thua",
+            "lossamount": "Số tiền thua",
+            "notbetcount": "Số trận không đặt",
+            "notbetamount": "Số tiền thua",
+            "totalloss": "Tổng tiền thua"
+          },
+          "total": "Tổng tiền thua",
+          "unit": "VNĐ"
+        }
+      }
+    }
+  }
+}

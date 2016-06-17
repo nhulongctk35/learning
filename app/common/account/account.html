@@ -1,0 +1,22 @@
+<li dropdown>
+  <a ng-if="!account.loginUser.username" href="/home">
+    <span class='glyphicon glyphicon-log-in' aria-hidden="true"></span>
+  </a>
+  <a ng-if="account.loginUser.username" dropdown-toggle>
+    <span class='glyphicon glyphicon-user' aria-hidden="true"></span>
+    <span ng-bind="account.loginUser.username"></span>
+  </a>
+  <ul class="dropdown-menu" aria-labelledby="simple-dropdown">
+    <li>
+      <a href="javascript:void(0)" translate="common.account.change-password" ng-click="account.openChangePassword()">Change Password</a>
+    </li>
+    <li role="separator" className="divider"></li>
+    <li>
+      <a href="javascript:void(0)" ng-click="account.logout()" translate="common.account.logout">Logout</a>
+    </li>
+    <li role="separator" className="divider"></li>
+     <li>
+      <a href="/management" translate="common.account.management">Management</a>
+    </li>
+  </ul>
+</li>

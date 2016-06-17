@@ -1,0 +1,7 @@
+<md-button ng-class="{'{{section.icon}}' : true}"
+    ng-click="focusSection(); management.showTournamenDetail(section.id)">
+    {{section.name}}
+    <span class="md-visually-hidden" ng-if="management.isSelected()">
+        current page
+    </span>
+</md-button>
